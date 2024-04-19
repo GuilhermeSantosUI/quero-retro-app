@@ -1,0 +1,77 @@
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #1a1a1a;
+}
+
+.container .retro-stories {
+  width: 100%;
+  max-width: 380px;
+
+  height: 100vh;
+
+  background-color: #f2e7fd;
+
+  display: grid;
+
+  grid-template-rows: auto 1fr auto;
+}
+
+.retro-stories .status-bar {
+  height: fit-content;
+  padding: 20px;
+  padding-bottom: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.retro-stories .status-bar p {
+  width: 54px;
+  height: 20px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: SF Pro Text;
+  font-weight: 600;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.retro-stories .status-signal {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.retro-stories .content {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.retro-stories .footer-bar {
+  height: fit-content;
+
+  padding: 20px;
+  padding-bottom: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.retro-stories .footer-bar .navigation-footer-bar {
+  width: 134px;
+  height: 5px;
+
+  background: black;
+
+  border-radius: 92px;
+}
