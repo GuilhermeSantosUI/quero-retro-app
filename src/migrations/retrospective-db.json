@@ -1,0 +1,257 @@
+{
+  "retrospectives": [
+    {
+      "id": "1",
+      "code": "XZASCSCS",
+      "products": [
+        {
+          "id": "1",
+          "name": "Product 1",
+          "price": 10.99,
+          "quantity": 2,
+          "product_image": "https://example.com/product1.jpg"
+        }
+      ],
+      "establishment_category": "Supermarket",
+      "store_id": "123",
+      "store_image": "https://example.com/store.jpg",
+      "store_name": "Minimart",
+      "total_value": 27.97,
+      "creation_date": "2022-01-01"
+    },
+    {
+      "id": "2",
+      "code": "ABCDEF",
+      "products": [
+        {
+          "id": "3",
+          "name": "Product 3",
+          "price": 7.99,
+          "quantity": 3,
+          "product_image": "https://example.com/product3.jpg"
+        },
+        {
+          "id": "4",
+          "name": "Product 4",
+          "price": 12.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product4.jpg"
+        }
+      ],
+      "establishment_category": "Supermarket",
+      "store_id": "456",
+      "store_image": "https://example.com/store2.jpg",
+      "store_name": "Supermart",
+      "total_value": 41.96,
+      "creation_date": "2022-01-02"
+    },
+    {
+      "id": "3",
+      "code": "GHIJKL",
+      "products": [
+        {
+          "id": "5",
+          "name": "Product 5",
+          "price": 8.99,
+          "quantity": 2,
+          "product_image": "https://example.com/product5.jpg"
+        },
+        {
+          "id": "6",
+          "name": "Product 6",
+          "price": 6.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product6.jpg"
+        }
+      ],
+      "establishment_category": "Pharmacy",
+      "store_id": "789",
+      "store_image": "https://example.com/store3.jpg",
+      "store_name": "PharmaPlus",
+      "total_value": 24.97,
+      "creation_date": "2022-01-03"
+    },
+    {
+      "id": "4",
+      "code": "MNOPQR",
+      "products": [
+        {
+          "id": "7",
+          "name": "Product 7",
+          "price": 9.99,
+          "quantity": 3,
+          "product_image": "https://example.com/product7.jpg"
+        },
+        {
+          "id": "8",
+          "name": "Product 8",
+          "price": 4.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product8.jpg"
+        }
+      ],
+      "establishment_category": "Supermarket",
+      "store_id": "101112",
+      "store_image": "https://example.com/store4.jpg",
+      "store_name": "MegaMart",
+      "total_value": 34.95,
+      "creation_date": "2022-01-04"
+    },
+    {
+      "id": "5",
+      "code": "STUVWX",
+      "products": [
+        {
+          "id": "9",
+          "name": "Product 9",
+          "price": 11.99,
+          "quantity": 2,
+          "product_image": "https://example.com/product9.jpg"
+        },
+        {
+          "id": "10",
+          "name": "Product 10",
+          "price": 7.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product10.jpg"
+        }
+      ],
+      "establishment_category": "Electronics",
+      "store_id": "131415",
+      "store_image": "https://example.com/store5.jpg",
+      "store_name": "TechZone",
+      "total_value": 31.97,
+      "creation_date": "2022-01-05"
+    },
+    {
+      "id": "6",
+      "code": "YZABCD",
+      "products": [
+        {
+          "id": "11",
+          "name": "Product 11",
+          "price": 6.99,
+          "quantity": 3,
+          "product_image": "https://example.com/product11.jpg"
+        },
+        {
+          "id": "12",
+          "name": "Product 12",
+          "price": 9.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product12.jpg"
+        }
+      ],
+      "establishment_category": "Supermarket",
+      "store_id": "161718",
+      "store_image": "https://example.com/store6.jpg",
+      "store_name": "GroceryMart",
+      "total_value": 35.95,
+      "creation_date": "2022-01-06"
+    },
+    {
+      "id": "7",
+      "code": "EFGHIJ",
+      "products": [
+        {
+          "id": "13",
+          "name": "Product 13",
+          "price": 5.99,
+          "quantity": 2,
+          "product_image": "https://example.com/product13.jpg"
+        },
+        {
+          "id": "14",
+          "name": "Product 14",
+          "price": 8.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product14.jpg"
+        }
+      ],
+      "establishment_category": "Pharmacy",
+      "store_id": "192021",
+      "store_image": "https://example.com/store7.jpg",
+      "store_name": "MediMart",
+      "total_value": 20.97,
+      "creation_date": "2022-01-07"
+    },
+    {
+      "id": "8",
+      "code": "KLMNOP",
+      "products": [
+        {
+          "id": "15",
+          "name": "Product 15",
+          "price": 4.99,
+          "quantity": 3,
+          "product_image": "https://example.com/product15.jpg"
+        },
+        {
+          "id": "16",
+          "name": "Product 16",
+          "price": 11.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product16.jpg"
+        }
+      ],
+      "establishment_category": "Supermarket",
+      "store_id": "222324",
+      "store_image": "https://example.com/store8.jpg",
+      "store_name": "QuickMart",
+      "total_value": 34.95,
+      "creation_date": "2022-01-08"
+    },
+    {
+      "id": "9",
+      "code": "PQRSTU",
+      "products": [
+        {
+          "id": "17",
+          "name": "Product 17",
+          "price": 8.99,
+          "quantity": 2,
+          "product_image": "https://example.com/product17.jpg"
+        },
+        {
+          "id": "18",
+          "name": "Product 18",
+          "price": 6.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product18.jpg"
+        }
+      ],
+      "establishment_category": "Electronics",
+      "store_id": "252627",
+      "store_image": "https://example.com/store9.jpg",
+      "store_name": "GadgetZone",
+      "total_value": 24.97,
+      "creation_date": "2022-01-09"
+    },
+    {
+      "id": "10",
+      "code": "UVWXYZ",
+      "products": [
+        {
+          "id": "19",
+          "name": "Product 19",
+          "price": 9.99,
+          "quantity": 3,
+          "product_image": "https://example.com/product19.jpg"
+        },
+        {
+          "id": "20",
+          "name": "Product 20",
+          "price": 5.99,
+          "quantity": 1,
+          "product_image": "https://example.com/product20.jpg"
+        }
+      ],
+      "establishment_category": "Supermarket",
+      "store_id": "282930",
+      "store_image": "https://example.com/store10.jpg",
+      "store_name": "DiscountMart",
+      "total_value": 34.95,
+      "creation_date": "2022-01-10"
+    }
+  ]
+}
