@@ -1,7 +1,11 @@
-import { readFile, readdirSync } from "fs";
+import { readFile, readdirSync } from 'fs';
+
+import mobileSignalImg from '../src/assets/svgs/mobile-signal.svg';
+import wifiSignalImg from '../src/assets/svgs/wifi-signal.svg';
+import batteryStatusImg from '../src/assets/svgs/battery-status.svg';
 
 async function loadContent() {
-  const dir = "./src/pages";
+  const dir = './src/pages';
   const files = readdirSync(dir);
   const content = [];
 
@@ -9,7 +13,7 @@ async function loadContent() {
     const filePath = `${dir}/${file}`;
 
     const fileContent = await new Promise((resolve, reject) => {
-      readFile(filePath, "utf-8", (err, data) => {
+      readFile(filePath, 'utf-8', (err, data) => {
         if (err) {
           reject(err);
         } else {
@@ -28,7 +32,27 @@ export async function render() {
   const pageContent = await loadContent();
 
   const html = `
-     ${pageContent.map((content) => `${content}`).join("")}
+    <div class="container">
+      <div class="retro-stories">
+        <header class="status-bar">
+          <p>9:41</p>
+
+          <div class="status-signal">
+            <img src="${mobileSignalImg}" alt="mobile signal" />
+            <img src="${wifiSignalImg}" alt="wifi signal" />
+            <img src="${batteryStatusImg}" alt="battery status" />
+          </div>
+        </header>
+
+        <div class="content">
+          ${pageContent.map((content) => `${content}`).join('')}
+        </div>
+
+        <footer class="footer-bar">
+          <div class="navigation-footer-bar"></div>
+        </footer>
+      </div>
+    </div>
   `;
 
   return { html };
