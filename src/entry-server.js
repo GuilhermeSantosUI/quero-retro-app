@@ -27,7 +27,6 @@ async function loadContent() {
 
   return content;
 }
-
 export async function render() {
   const pageContent = await loadContent();
 
@@ -45,7 +44,17 @@ export async function render() {
         </header>
 
         <div class="content">
-          ${pageContent.map((content) => `${content}`).join('')}
+          <div data-slide="slide" class="slide">
+            <div class="slide-items">
+              ${pageContent.map((content) => `${content}`).join('')}
+            </div>
+
+            <nav class="slide-nav">
+              <div class="slide-thumb"></div>
+              <button class="slide-prev">Anterior</button>
+              <button class="slide-next">Próximo</button>
+            </nav>
+          </div>
         </div>
 
         <footer class="footer-bar">
