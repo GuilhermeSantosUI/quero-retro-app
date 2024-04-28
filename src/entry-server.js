@@ -1,4 +1,7 @@
 import { readFile, readdirSync } from 'fs';
+import 'dotenv/config';
+
+import './services/gemini.js';
 
 import mobileSignalImg from '../src/assets/svgs/mobile-signal.svg';
 import wifiSignalImg from '../src/assets/svgs/wifi-signal.svg';
@@ -47,6 +50,8 @@ export async function render() {
           <div data-slide="slide" class="slide">
             <div class="slide-items">
               ${pageContent.map((content) => `${content}`).join('')}
+
+
             </div>
 
             <nav class="slide-nav">
