@@ -1,17 +1,124 @@
-<div
-  class="slide-items-content"
-  style="background-color: var(--primary-medium)">
-  <style>
-    .content-slide {
-      margin-top: 1rem;
-    }
-  </style>
+<!DOCTYPE html>
 
-  <div class="content-slide">
-    <p class="prompt">COMPRAS NO ANO</p>
-    <p>
-      Essa página deve exibir ao usuário a quantidade de compras que ele fez no
-      ano utilizando o aplicativo.
-    </p>
-  </div>
-</div>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/stories.css">
+    <link rel="stylesheet" type="text/css" href="../styles/template.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Compras no ano</title>
+  </head>
+  <body class="container">
+    <div class="retro-stories" style = "background-color:#9b4dee">
+      <div class="topIcons">
+        <img
+          loading="lazy"
+          src="../assets/images/logo-querodelivery-simbolo.png"
+          class="queroDeliveryIcon"
+        />
+        <i class="material-icons">close</i>
+      </div>
+      <div class="mainImage">
+        <img
+          loading="lazy"
+          src="../assets/images/logo-querodelivery-simbolo.png"
+          class="queroDeliveryLogo"
+        />
+        <div class="storyMessage">
+          <span style="font-weight: 700; font-style: italic">92</span>
+          pedidos,
+          <span style="font-weight: 700; font-style: italic">92</span>
+          momentos de
+          <span
+            style="
+              font-weight: 700;
+              font-style: italic;
+              color: var(--color-medium);
+            "
+          >
+            pura satisfação
+          </span>
+          !
+        </div>
+        <div class="storyJoke">Nossa relação tem aumentado cada vez mais 😏</div>
+        <button onclick="" class="share">
+          Compartilhar
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/963e58138a79f771e148115b5467cc0aae9837cb7ddc5df2c07ec7061228a9cd?"
+            class="arrowIcon"
+          />
+        </button>
+      </div>
+    </div>
+    <style>
+      .topIcons {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 54px;
+        gap: 10px;
+      }
+      .queroDeliveryIcon {
+        width: 28px;
+        padding-left: 24px;
+      }
+      .mainImage {
+        justify-content: center;
+        display: flex;
+        margin-top: 32px;
+        flex-direction: column;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 16px 24px;
+      }
+      .queroDeliveryLogo {
+        aspect-ratio: 0.74;
+        object-fit: auto;
+        object-position: center;
+        width: 124px;
+        align-self: center;
+        max-width: 100%;
+      }
+      .storyMessage {
+        color: var(--tertiary-medium, #fae903);
+        margin-top: 73px;
+        font: italic 40px Aglet Sans, sans-serif;
+      }
+      .storyJoke {
+        color: #fff;
+        margin-top: 32px;
+        font: 32px Aglet Sans, sans-serif;
+      }
+      .share {
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color: var(--neutral-color-high-lightest, #fff);
+        display: flex;
+        border: var(--neutral-color-high-lightest);
+        margin-top: 61px;
+        gap: 16px;
+        font-size: 20px;
+        color: var(--primary-medium, #9b4dee);
+        white-space: nowrap;
+        cursor: pointer;
+        pointer-events: auto;
+        padding: 16px;
+      }
+      .arrowIcon {
+        aspect-ratio: 1;
+        object-fit: auto;
+        object-position: center;
+        width: 26px;
+      }
+
+      .material-icons {
+        color: #ffffff;
+        width: 24px;
+        padding-top: 10px;
+        padding-right: 24px;
+      }
+    </style>
+    
+  </body>
+</html>
+
+
