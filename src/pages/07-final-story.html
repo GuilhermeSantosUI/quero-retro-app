@@ -1,18 +1,89 @@
-<div
-  class="slide-items-content"
-  style="background-color: var(--primary-medium)">
-  <style>
-    .content-slide {
-      margin-top: 1rem;
-    }
-  </style>
+<!DOCTYPE html>
 
-  <div class="content-slide">
-    <p class="prompt">AGRADECIMENTO E FINALIZAÇÃO</p>
-    <p>
-      Essa página deve exibir ao usuário um texto sugerido de agradecimento e
-      colocacao de assets que estao anexados na pagina do fluxo (figma).
-      <i>NA IMPLEMENTACAO ELA DEVE SER VARIAVEL</i>
-    </p>
-  </div>
-</div>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/template.css">
+    <link rel="stylesheet" type="text/css" href="../styles/global.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body class="container" >
+    <div class="retro-stories" style = "background-color:#9b4dee">
+      <div class="topIcons">
+        <img
+        loading="lazy"
+        src="../assets/images/logo-querodelivery-simbolo.png"
+        class="queroDeliveryIcon"
+      />
+      <i class="material-icons">close</i>
+          </div>
+          <div class="div-6">
+            Essa
+            <span style="font-weight: 700; font-style: italic">parceria</span>
+            com os alunos mostra o quanto que a
+            <span style="font-weight: 700">quero</span>
+            esta empenhada em criar
+            <span
+              style="
+                font-weight: 700;
+                font-style: italic;
+                color: rgba(255, 255, 255, 1);
+              "
+            >
+              produtos
+            </span>
+            e
+            <span style="font-weight: 700; font-style: italic">experiencias</span>
+            que enriquecem a
+            <span
+              style="
+                font-weight: 700;
+                font-style: italic;
+                color: rgba(250, 233, 3, 1);
+              "
+            >
+              vida das pessoas
+            </span>
+            !
+          </div>
+          <div class="diagonal-image-container">
+            <img src="../assets/porto-digital-unit.png" alt="Imagem Diagonal">
+        </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .topIcons {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 54px;
+        gap: 10px;
+      }
+      
+      .queroDeliveryIcon {
+        width: 48px;
+        padding-left: 24px;
+      }
+      .material-icons {
+        color: #ffffff;
+        width: 24px;
+        padding-top: 10px;
+        margin-right: 24px;
+      }
+      .div-6 {
+        color: var(--neutral-color-high-lightest);
+        margin-top: 32px;
+        margin-left: 24px;
+        margin-right: 82px;
+        font: 33px Aglet Sans, sans-serif;
+      }
+      .diagonal-image-container {
+        height: 380px;
+        width: 450px;
+        margin-left: 30px;
+        overflow: hidden;
+        transform: rotate(-30deg);
+      }
+    </style>
+    
+  </body>
+</html>
