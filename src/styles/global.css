@@ -61,21 +61,73 @@
 }
 
 @font-face {
+  font-family: 'Aglet Sans Black';
+  src: url('../assets/fonts/aglet-sans-black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Black Italic';
+  src: url('../assets/fonts/aglet-sans-black-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Bold';
+  src: url('../assets/fonts/aglet-sans-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Bold Italic';
+  src: url('../assets/fonts/aglet-sans-bold-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Extra Light';
+  src: url('../assets/fonts/aglet-sans-extra-light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Extra Light Italic';
+  src: url('../assets/fonts/aglet-sans-extra-light-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Light';
+  src: url('../assets/fonts/aglet-sans-light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Light Italic';
+  src: url('../assets/fonts/aglet-sans-light-italic.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'Aglet Sans';
-  src: url('../assets/fonts/aglet-sans-black.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-black-italic.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-bold.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-bold-italic.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-extra-light.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-extra-light-italic.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-light.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-light-italic.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-regular.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-italic.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-semi-bold.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-semi-bold-italic.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-ultra.otf') format('opentype'),
-    url('../assets/fonts/aglet-sans-ultra-italic.otf') format('opentype');
+  src: url('../assets/fonts/aglet-sans-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Italic';
+  src: url('../assets/fonts/aglet-sans-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Semi Bold';
+  src: url('../assets/fonts/aglet-sans-semi-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Semi Bold Italic';
+  src: url('../assets/fonts/aglet-sans-semi-bold-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Ultra';
+  src: url('../assets/fonts/aglet-sans-ultra.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aglet Sans Ultra Italic';
+  src: url('../assets/fonts/aglet-sans-ultra-italic.otf') format('opentype');
 }
 
 * {
@@ -94,9 +146,7 @@ html,
 body,
 #root {
   height: 100%;
-
   font-family: Aglet Sans, sans-serif;
-  font-weight: 500;
 }
 
 body {

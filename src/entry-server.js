@@ -50,8 +50,6 @@ export async function render() {
           <div data-slide="slide" class="slide">
             <div class="slide-items">
               ${pageContent.map((content) => `${content}`).join('')}
-
-
             </div>
 
             <nav class="slide-nav">

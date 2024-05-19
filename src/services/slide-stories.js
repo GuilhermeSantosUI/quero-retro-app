@@ -11,7 +11,7 @@ class SlideStories {
     this.items[index].classList.add('active');
     this.thumbItems.forEach((item) => item.classList.remove('active'));
     this.thumbItems[index].classList.add('active');
-    this.autoSlide();
+    // this.autoSlide();
   }
 
   prev() {
