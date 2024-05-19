@@ -1,0 +1,209 @@
+<div>
+  <style>
+    .page-container {
+      width: 100%;
+      display: flex;
+      animation: scroll 5s linear infinite;
+    }
+
+    .container-right {
+      width: 200%;
+      display: flex;
+      animation: scrollRight 10s linear infinite;
+    }
+
+    .container-left {
+      width: 400%;
+      display: flex;
+      animation: scroll 5s linear infinite;
+    }
+
+    .app {
+      position: relative;
+      background-color: #e0457b;
+      border-radius: 20px;
+      margin-top: 50px;
+      overflow: hidden;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      background-image: url(http://localhost:5173/src/assets/images/logo-querodelivery-simbolo.png);
+      background-size: cover;
+      height: 109px;
+      width: 80px;
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 164px;
+    }
+    .mensagem {
+      font-size: 36px;
+      color: #ffffff;
+      text-align: center;
+      width: 332px;
+      height: 92px;
+      position: absolute;
+      font-weight: 300;
+      left: 55px;
+      margin-top: 200px;
+    }
+
+    .primeiro {
+      display: flex;
+    }
+
+    .segundo {
+      display: flex;
+    }
+
+    .terceiro {
+      display: flex;
+    }
+
+    .caixa_1,
+    .caixa_2,
+    .caixa_3,
+    .caixa_4,
+    .caixa_5,
+    .caixa_6,
+    .caixa_7 {
+      height: 90px;
+      width: 90px;
+      border-radius: 25px;
+      background-color: #f4bed2;
+      margin-top: 400px;
+      margin-left: 20px;
+    }
+
+    .caixa_8,
+    .caixa_9,
+    .caixa_10,
+    .caixa_11,
+    .caixa_12,
+    .caixa_13,
+    .caixa_14 {
+      height: 90px;
+      width: 90px;
+      border-radius: 25px;
+      background-color: #f4bed2;
+      margin-top: 23px;
+      margin-left: 20px;
+    }
+
+    .caixa_20,
+    .caixa_21,
+    .caixa_22,
+    .caixa_23,
+    .caixa_24,
+    .caixa_25,
+    .caixa_26 {
+      height: 90px;
+      width: 90px;
+      border-radius: 25px;
+      background-color: #f4bed2;
+      margin-top: 23px;
+      margin-left: 20px;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-33.33%);
+      }
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-33.33%);
+      }
+    }
+
+    @keyframes scrollRight {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+
+  <body>
+    <div class="app">
+      <div class="logo"></div>
+
+      <div class="mensagem">
+        <p>
+          Você pediu em 21 lojas diferentes!
+          <strong><i style="color: #fae903">diferentes!</i></strong>
+        </p>
+      </div>
+
+      <div class="page-container">
+        <div class="primeiro">
+          <div class="caixa_1"></div>
+          <div class="caixa_2"></div>
+          <div class="caixa_3"></div>
+          <div class="caixa_4"></div>
+        </div>
+
+        <div class="primeiro">
+          <div class="caixa_1"></div>
+          <div class="caixa_2"></div>
+          <div class="caixa_3"></div>
+          <div class="caixa_4"></div>
+          <div class="caixa_5"></div>
+          <div class="caixa_6"></div>
+          <div class="caixa_7"></div>
+        </div>
+      </div>
+
+      <div class="container-right">
+        <div class="segundo">
+          <div class="caixa_8"></div>
+          <div class="caixa_9"></div>
+          <div class="caixa_10"></div>
+          <div class="caixa_11"></div>
+          <div class="caixa_12"></div>
+          <div class="caixa_13"></div>
+          <div class="caixa_14"></div>
+        </div>
+
+        <div class="segundo">
+          <div class="caixa_8"></div>
+          <div class="caixa_9"></div>
+          <div class="caixa_10"></div>
+          <div class="caixa_11"></div>
+          <div class="caixa_12"></div>
+          <div class="caixa_13"></div>
+          <div class="caixa_14"></div>
+        </div>
+      </div>
+
+      <div class="container-left">
+        <div class="terceiro">
+          <div class="caixa_20"></div>
+          <div class="caixa_21"></div>
+          <div class="caixa_22"></div>
+          <div class="caixa_23"></div>
+        </div>
+
+        <div class="terceiro">
+          <div class="caixa_20"></div>
+          <div class="caixa_21"></div>
+          <div class="caixa_22"></div>
+          <div class="caixa_23"></div>
+          <div class="caixa_24"></div>
+          <div class="caixa_25"></div>
+          <div class="caixa_26"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</div>
