@@ -1,7 +1,7 @@
 import { readFile, readdirSync } from 'fs';
 import 'dotenv/config';
 
-import './src/services/gemini.js';
+import './services/gemini.js';
 
 import mobileSignalImg from '../src/assets/svgs/mobile-signal.svg';
 import wifiSignalImg from '../src/assets/svgs/wifi-signal.svg';
