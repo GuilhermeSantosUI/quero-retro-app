@@ -3,9 +3,9 @@ import 'dotenv/config';
 
 import './services/gemini.js';
 
-import mobileSignalImg from '../src/assets/svgs/mobile-signal.svg';
-import wifiSignalImg from '../src/assets/svgs/wifi-signal.svg';
-import batteryStatusImg from '../src/assets/svgs/battery-status.svg';
+import mobileSignalImg from './assets/svgs/mobile-signal.svg';
+import wifiSignalImg from './assets/svgs/wifi-signal.svg';
+import batteryStatusImg from './assets/svgs/battery-status.svg';
 
 async function loadContent() {
   const dir = './src/pages';
