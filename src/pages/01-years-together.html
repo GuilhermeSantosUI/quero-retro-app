@@ -13,8 +13,6 @@
       margin-top: 1rem;
     }
 
-    
-
     .slide-text {
       color: white;
       font-size: 36.89px;
@@ -42,9 +40,8 @@
     }
 
     .slide-button {
-      width: 306.21px;
-      height: 53.5px;
-      padding: 14.76px;
+      width: 100%;
+      padding: 16px;
       background: white;
       border-radius: 9.22px;
       overflow: hidden;
@@ -56,30 +53,39 @@
     .slide-button-text {
       text-align: center;
       color: #9b4dee;
-      font-size: 18.45px;
+      font-size: 18px;
       font-family: Aglet Sans;
       font-weight: 400;
       word-wrap: break-word;
     }
 
-    .slide-button-icon {
-      width: 23.98px;
-      height: 23.98px;
-      position: relative;
+    .header-logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      display: inline-flex;
     }
 
-    .slide-button-icon-inner {
-      width: 13.49px;
-      height: 13.49px;
-      left: 5.25px;
-      top: 5.25px;
-      position: absolute;
-      background: #9b4dee;
+    .header-logo .icon-container {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 
   <div class="content-slide">
-    <div style="width: 306.21px; text-align: center">
+    <div class="header-logo">
+      <img
+        style="width: 25px; height: 35px"
+        src="http://localhost:5173/src/assets/images/logo-querodelivery-simbolo.png" />
+      <div class="icon-container">
+        <i class="ph ph-x" style="font-size: 20px; color: white"></i>
+      </div>
+    </div>
+
+    <div style="text-align: center">
       <span class="slide-text">Nosso relacionamento já tem </span
       ><span class="slide-text-emphasis">2 anos</span
       ><span class="slide-text">!!</span>
@@ -90,23 +96,45 @@
     </div>
 
     <div class="slide-button">
-
       <div class="slide-button-text">Compartilhar</div>
-      <div class="slide-button-icon">
-        <div class="slide-button-icon-inner"></div>
-      </div>
     </div>
 
-    <div >
-      <img style="width: 157.9px;
-      display: flex;
-      height: 200.72px;
-      margin-left: 200px;
-      transform: rotate(-30.87deg);
-      overflow: hidden;
-      position: relative;
-      bottom: -100px;"
-      src="http://localhost:5173/src/assets/images/logo-querodelivery-simbolo.png">
+    <div style="position: relative">
+      <div
+        style="
+          width: 81.64px;
+          height: 600px;
+          position: absolute;
+          transform: rotate(-40deg);
+          transform-origin: 0 0;
+          left: -100px;
+          bottom: -650px;
+          background: #7515d1;
+        "></div>
+      <div
+        style="
+          width: 68.01px;
+          height: 328.38px;
+          position: absolute;
+          transform: rotate(-50deg);
+          transform-origin: 0 0;
+          left: -100px;
+          bottom: -520px;
+          background: #d8b8f9;
+        "></div>
     </div>
+
+    <img
+      style="
+        width: 200.98px;
+        height: 272.75px;
+        transform: rotate(-19.87deg);
+        transform-origin: 0 0;
+        overflow: hidden;
+        position: relative;
+        bottom: -100px;
+        right: -120px;
+      "
+      src="http://localhost:5173/src/assets/images/logo-querodelivery-simbolo.png" />
   </div>
 </div>
