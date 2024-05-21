@@ -73,6 +73,34 @@
       justify-content: center;
       align-items: center;
     }
+
+    .bar-dark {
+      width: 80px;
+      height: 600px;
+
+      position: absolute;
+      transform: rotate(-40deg);
+      transform-origin: 0 0;
+
+      left: -100px;
+      bottom: -650px;
+
+      background: var(--primary-dark);
+    }
+
+    .bar-light {
+      width: 70px;
+      height: 400px;
+
+      position: absolute;
+      transform: rotate(-50deg);
+      transform-origin: 0 0;
+
+      left: -100px;
+      bottom: -600px;
+
+      background: var(--primary-light);
+    }
   </style>
 
   <div class="content-slide">
@@ -100,28 +128,8 @@
     </div>
 
     <div style="position: relative">
-      <div
-        style="
-          width: 81.64px;
-          height: 600px;
-          position: absolute;
-          transform: rotate(-40deg);
-          transform-origin: 0 0;
-          left: -100px;
-          bottom: -650px;
-          background: #7515d1;
-        "></div>
-      <div
-        style="
-          width: 68.01px;
-          height: 328.38px;
-          position: absolute;
-          transform: rotate(-50deg);
-          transform-origin: 0 0;
-          left: -100px;
-          bottom: -520px;
-          background: #d8b8f9;
-        "></div>
+      <div class="bar-dark"></div>
+      <div class="bar-light"></div>
     </div>
 
     <img
