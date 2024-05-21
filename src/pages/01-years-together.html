@@ -101,6 +101,20 @@
 
       background: var(--primary-light);
     }
+
+    .image-mask {
+      width: 200px;
+      height: 270px;
+
+      transform: rotate(-20deg);
+      transform-origin: 0 0;
+
+      overflow: hidden;
+      position: relative;
+
+      bottom: -100px;
+      right: -120px;
+    }
   </style>
 
   <div class="content-slide">
@@ -133,16 +147,7 @@
     </div>
 
     <img
-      style="
-        width: 200.98px;
-        height: 272.75px;
-        transform: rotate(-19.87deg);
-        transform-origin: 0 0;
-        overflow: hidden;
-        position: relative;
-        bottom: -100px;
-        right: -120px;
-      "
+      class="image-mask"
       src="http://localhost:5173/src/assets/images/logo-querodelivery-simbolo.png" />
   </div>
 </div>
