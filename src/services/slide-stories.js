@@ -11,7 +11,7 @@ class SlideStories {
     this.items[index].classList.add('active');
     this.thumbItems.forEach((item) => item.classList.remove('active'));
     this.thumbItems[index].classList.add('active');
-    this.autoSlide();
+    //this.autoSlide();
   }
 
   prev() {
@@ -35,6 +35,14 @@ class SlideStories {
     const prevBtn = this.slide.querySelector('.slide-prev');
     nextBtn.addEventListener('click', this.next);
     prevBtn.addEventListener('click', this.prev);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.keyCode === 37) {
+        this.prev();
+      } else if (e.keyCode === 39) {
+        this.next();
+      }
+    });
   }
 
   addThumbItems() {

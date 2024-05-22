@@ -54,8 +54,8 @@ export async function render() {
 
             <nav class="slide-nav">
               <div class="slide-thumb"></div>
-              <button class="slide-prev">Anterior</button>
-              <button class="slide-next">Próximo</button>
+              <button style="display: none;" class="slide-prev">Anterior</button>
+              <button style="display: none;" class="slide-next">Próximo</button>
             </nav>
           </div>
         </div>
