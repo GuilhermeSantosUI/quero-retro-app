@@ -1,21 +1,57 @@
-<!--
-
-  IMPORTEM AS IMAGENS ASSIM
-    <img src="http://localhost:5173/src/assets/nomedoarquivo.png" alt="" />
-
- -->
-
- <div
+<div
   class="slide-items-content"
   style="background-color: var(--neutral-color-high-lightest)">
   <style>
     .content-slide {
       margin-top: 1rem;
     }
+
+    .text-title {
+      color: black;
+      font-size: 24px;
+      font-family: Aglet Sans;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+
+    .text-subtitle {
+      text-align: center;
+
+      font-size: 30px;
+      font-family: Aglet Sans;
+
+      font-weight: 400;
+      word-wrap: break-word;
+
+      margin-bottom: 44px;
+      margin-top: 0;
+    }
+
+    .type-purchase-image {
+      width: 300px;
+      transform: rotate(13.69deg);
+      transform-origin: 0 0;
+      object-fit: cover;
+      position: relative;
+      left: 42px;
+      bottom: 32px;
+    }
   </style>
 
   <div class="content-slide">
-    <div style="width: 306.63px; text-align: center">
+    <div class="header-logo">
+      <img
+        style="width: 25px; height: 35px"
+        src="http://localhost:5173/src/assets/images/logo-querodelivery-cor-simbolo.png" />
+
+      <div class="icon-container">
+        <i
+          class="ph ph-x"
+          style="font-size: 20px; color: var(--primary-medium)"></i>
+      </div>
+    </div>
+
+    <div style="text-align: center">
       <span
         style="
           color: black;
@@ -44,91 +80,27 @@
         >!</span
       >
     </div>
-    <img
-      style="
-        width: 274.71px;
-        height: 141.42px;
-        transform: rotate(13.69deg);
-        transform-origin: 0 0;
-      "
-      src="https://via.placeholder.com/275x141" />
 
-    <div style="width: 306.63px; text-align: center">
-      <span
-        style="
-          color: black;
-          font-size: 24.09px;
-          font-family: Aglet Sans;
-          font-weight: 400;
-          word-wrap: break-word;
-        "
-        >O cardápio saudável esteve </span
+    <img
+      class="type-purchase-image"
+      src="http://localhost:5173/src/assets/images/prato-salada-tipo-compra.png" />
+
+    <div style="text-align: center; margin-bottom: 20px">
+      <span class="text-title">O cardápio saudável esteve </span
       ><span
-        style="
-          color: #9b4dee;
-          font-size: 24.09px;
-          font-family: 'Aglet Sans Bold Italic' !important;
-          word-wrap: break-word;
-        "
+        class="text-title"
+        style="color: #9b4dee; font-family: 'Aglet Sans Bold Italic' !important"
         >24 vezes</span
-      ><span
-        style="
-          color: black;
-          font-size: 24.09px;
-          font-family: Aglet Sans;
-          font-weight: 400;
-          word-wrap: break-word;
-        ">
-        na sua sacola.</span
-      >
+      ><span class="text-title"> na sua sacola.</span>
     </div>
-    <div
-      style="
-        width: 306.63px;
-        text-align: center;
-        color: black;
-        font-size: 29.56px;
-        font-family: Aglet Sans;
-        font-weight: 400;
-        word-wrap: break-word;
-      ">
+
+    <div class="text-subtitle" style="color: black">
       Mas é claro que a gente sempre precisa de um docinho, né? 🤭
     </div>
 
-    <div
-      style="
-        width: 306.63px;
-        height: 53.57px;
-        padding: 14.78px;
-        background: #9b4dee;
-        border-radius: 9.24px;
-        overflow: hidden;
-        justify-content: space-between;
-        align-items: center;
-        display: inline-flex;
-      ">
-      <div
-        style="
-          text-align: center;
-          color: white;
-          font-size: 18.47px;
-          font-family: Aglet Sans;
-          font-weight: 400;
-          word-wrap: break-word;
-        ">
-        Compartilhar
-      </div>
-      <div style="width: 24.01px; height: 24.01px; position: relative">
-        <div
-          style="
-            width: 13.51px;
-            height: 13.51px;
-            left: 5.25px;
-            top: 5.25px;
-            position: absolute;
-            background: white;
-          "></div>
-      </div>
+    <div class="slide-button" style="background-color: var(--primary-medium)">
+      <div class="slide-button-text" style="color: white">Compartilhar</div>
+      <i class="ph ph-arrow-up-right" style="color: white; font-size: 18px"></i>
     </div>
   </div>
 </div>
